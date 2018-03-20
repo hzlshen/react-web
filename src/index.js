@@ -18,6 +18,31 @@ const element = (
     </h1>
 );
 
+//JSX本身其实也是一种表达式
+//可传参 可作返回值
+function getGreeting(user) {
+    if(user){
+        return <h1>Hello,{formatName(user)}!</h1>;
+    }
+    return <h1>Hello , 啊哈哈哈</h1>;
+}
+//也可以用引号来定义以字符串为值的属性
+const element1= <div tabIndex="0"></div>;
+//也可以用大括号
+const element2 = <img src="{user.avatarUrl}" />;
+//相互嵌套
+const element3 =(
+    <div>
+        <h1>小龟龟</h1>
+        <h2>你好啊！世界！</h2>
+    </div>
+)
+
+
+
+
+
+
 ReactDOM.render(
-    element,document.getElementById('root')
+    element3,document.getElementById('root')
 )
