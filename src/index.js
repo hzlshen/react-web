@@ -38,10 +38,30 @@ const element3 =(
     </div>
 )
 
+//JSX防注入攻击
+// const title = response.potentiallyMaliciousInput;
+//直接使用是安全的
+// const element4 =<h1>{title}</h1>
 
+//JSX代表Objects React.createElement()方法调用
+//这两种代码作用是完全相同的
+const element6 = (
+    <h1 className="greeting">Hello , world!</h1>
+);
 
-
-
+const element8 = React.createElement(
+    'h1',
+    {
+        className:'greeting'
+    },
+    'Hello , world'
+)
+//React.createElement()首先会进行避免bug的检查
+const elay = {
+    type:'h1',
+    props:'greeting',
+    children:'Hello world'
+}
 
 ReactDOM.render(
     element3,document.getElementById('root')
