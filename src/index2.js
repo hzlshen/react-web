@@ -17,6 +17,18 @@ function tick() {
     );
 }
 
+function Welcome(props) {
+    return <h1>Hello ,{props.name}</h1>
+}
+
+class Welcome extends React.Component{
+    render(){
+        return <h1>你好啊小伙子,{this.props.name}</h1>
+    }
+}
+
+
+
 
 ReactDOM.render(
     element,document.getElementById('root')
