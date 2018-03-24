@@ -27,6 +27,32 @@ class Welcome extends React.Component{
     }
 }
 
+//前面渲染的都是dom标签
+//也可以自定义用户组件
+const element1 = <Welcome name="Sara" />;
+//将JSX属性作为单个对象传递给该组件,这个对象称之为“props”。
+function Welcome(props){
+    return <h1>Hello ,{props.name}</h1>
+}
+
+const element = <Welcome name="Sara" />;
+ReactDOM.render(
+  element,
+  document.getElementById('root')
+);
+
+//注意：组件名称必须以大写字母开头。
+
+//组合组件
+function App(){
+    return (
+
+        <div>
+            
+        </div>
+    )
+}
+
 
 
 

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="678e4918-030d-4663-a7ed-dc439b87e3d2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index2.js" afterPath="$PROJECT_DIR$/src/index2.js" />
-    </list>
+    <list default="true" id="678e4918-030d-4663-a7ed-dc439b87e3d2" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -126,8 +123,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="782" />
-    <option name="y" value="12" />
+    <option name="x" value="440" />
+    <option name="y" value="8" />
     <option name="width" value="1245" />
     <option name="height" value="1040" />
   </component>
@@ -223,15 +220,15 @@
       <workItem from="1518158222434" duration="1430000" />
       <workItem from="1521526566194" duration="9758000" />
       <workItem from="1521596343489" duration="7852000" />
-      <workItem from="1521713141052" duration="407000" />
+      <workItem from="1521713141052" duration="521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19984000" />
+    <option name="totallyTimeSpent" value="20098000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="782" y="12" width="1245" height="1040" extended-state="0" />
+    <frame x="440" y="8" width="1245" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14076485" sideWeight="0.49569893" order="0" side_tool="false" content_ui="combo" />
